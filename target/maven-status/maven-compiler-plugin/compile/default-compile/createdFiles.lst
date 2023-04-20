@@ -1,0 +1,6 @@
+com\service\api\dto\ServiceReponse.class
+com\service\api\service\ViewsServices.class
+com\service\api\controller\ServiceController.class
+com\service\api\entity\Services.class
+com\service\api\dto\ServiceReponse$ServiceReponseBuilder.class
+com\service\api\repository\ServiceRepository.class
