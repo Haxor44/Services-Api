@@ -4,15 +4,13 @@ import com.service.api.dto.ServiceReponse;
 import com.service.api.service.ViewsServices;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseStatus;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/v2")
+@CrossOrigin(origins = "*",allowCredentials="true")
 @RequiredArgsConstructor
 public class ServiceController {
     private final ViewsServices viewsServices;
