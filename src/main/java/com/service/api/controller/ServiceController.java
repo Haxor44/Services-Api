@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v2/services")
+@RequestMapping("/api/v2")
 @RequiredArgsConstructor
 public class ServiceController {
     private final ViewsServices viewsServices;
 
-    @GetMapping
+    @GetMapping("/services")
     @ResponseStatus(HttpStatus.OK)
     public List<ServiceReponse> getMaidData(){
         return  viewsServices.getMaidData();
