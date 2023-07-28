@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v2")
-@CrossOrigin(origins = "*",allowCredentials="true")
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 public class ServiceController {
     private final ViewsServices viewsServices;
