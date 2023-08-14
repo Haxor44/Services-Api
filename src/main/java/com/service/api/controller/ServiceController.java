@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v2")
-@CrossOrigin(origins = "https://roman-frontend.vercel.app/",allowCredentials="true")
+@CrossOrigin(origins = "https://corsproxy-1m4k.onrender.com/proxy",allowCredentials="true")
 @RequiredArgsConstructor
 public class ServiceController {
     private final ViewsServices viewsServices;
